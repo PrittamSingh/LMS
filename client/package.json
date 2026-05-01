@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@clerk/clerk-react": "^5.61.6",
+    "@stripe/react-stripe-js": "^6.3.0",
+    "@stripe/stripe-js": "^9.4.0",
     "humanize-duration": "^3.33.2",
     "quill": "^2.0.3",
     "rc-progress": "^4.0.0",
