@@ -108,7 +108,7 @@ export const stripeWebHooks = async (request, response) => {
             })
 
             const { purchaseId } = session.data[0].metadata;
-            const purchaseData = await Purchase.findById(purchaseId)
+            const purchaseData = await purchase.findById(purchaseId)
             purchaseData.status = 'failed'
             await purchaseData.save()
 
